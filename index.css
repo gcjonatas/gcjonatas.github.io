@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.links {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: flex;
+}
+
+.links label {
+    padding: 10px 0;
+    flex-grow: 1;
+    cursor: pointer;
+    transition: all .4s;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+    color: rgb(72, 136, 221);
+}
+
+.links label:hover {
+    background-color: rgba(92, 236, 169, 0.2);
+}
+
+.scroll {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sections {
+    transition: all .4s;
+}
+
+input {
+    display: none;
+}
+
+.bloco {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.invisivel {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* HOME ---------------------------------- */
+
+#pagehome {
+    background-color: rgb(255, 255, 255);
+}
+
+#principalhome {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+}
+
+#desenvolvedor>p {
+    text-align: center;
+}
+
+
+/* HOME ------------------------------------ */
+
+
+/* NOSSOS SERVIÇOS ------------------------------------ */
+
+#pagenossosservicos {
+    background-color: rgb(240, 240, 240);
+}
+
+#principalnossosservicos {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 100%;
+}
+
+#principalnossosservicos p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#textoservicolimpeza {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(175, 248, 191);
+    margin: 25px 0 0 10px;
+    float: left;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#imgservicolimpeza {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(175, 248, 191);
+    margin: 25px 0 0 20px;
+    float: left;
+}
+
+#imgservicolimpeza>img {
+    width: 100%;
+    height: 100%;
+}
+
+#imgservicoadomicilio {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(175, 248, 191);
+    margin: -220px 180px 0 0;
+    float: right;
+}
+
+#imgservicoadomicilio>img {
+    width: 100%;
+    height: 100%;
+}
+
+#textoservicoadomicilio {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(175, 248, 191);
+    margin: 20px 90px 0 10px;
+    float: right;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#textoservicoidoso {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(175, 248, 191);
+    margin: 75px 0 0 10px;
+    float: left;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#imgservicoidoso {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(175, 248, 191);
+    margin: 75px 0 0 20px;
+    clear: both;
+    float: left;
+}
+
+#imgservicoidoso>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* NOSSOS SERVIÇOS ------------------------------------ */
+
+
+/* QUEM SOMOS ------------------------------------ */
+
+#pagequemsomos {
+    background-color: rgb(220, 220, 220);
+}
+
+#principalquemsomos {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 100%;
+}
+
+#cartadoceo {
+    width: 60%;
+    height: 200px;
+    background-color: rgb(175, 248, 191);
+    margin: 30px 0 0 20px;
+    float: left;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
+
+#h1 {
+    font-size: 20px;
+}
+
+#seguranca {
+    width: 60%;
+    height: 250px;
+    background-color: rgb(175, 248, 191);
+    margin: 20px 0 0 20px;
+    clear: both;
+    float: left;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
+
+#seguranca>img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: auto;
+}
+
+#infodaempresa {
+    width: 80%;
+    height: 200px;
+    background-color: rgb(175, 248, 191);
+    margin: 40px 10% 0 10%;
+    clear: both;
+    float: left;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 0px 30px;
+}
+
+#infodaempresa>img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: auto;
+}
+
+#apoiadores {
+    width: 33%;
+    height: 470px;
+    background-color: rgb(175, 248, 191);
+    margin: -710px 60px 0 0;
+    clear: both;
+    float: right;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
+
+#apoiadores>img {
+    width: 80px;
+    margin: 0 20px 0 20px;
+}
+
+#h1 {
+    font-size: 20px;
+}
+
+
+/* QUEM SOMOS ------------------------------------ */
+
+
+/* EQUIPE ------------------------------------ */
+
+#equipe {
+    background-color: rgb(184, 247, 187);
+}
+
+#principalequipe {
+    background-color: rgb(240, 240, 240);
+    ;
+    width: 100%;
+    height: 100%;
+}
+
+.cargos {
+    text-align: center;
+}
+
+#ceo {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 200px;
+    float: left;
+    margin: 30px 0 0 250px;
+}
+
+#ceo img {
+    width: 100%;
+    border-radius: 300px;
+}
+
+#cto {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 200px;
+    float: left;
+    margin: 30px 0 0 250px;
+}
+
+#cto img {
+    width: 100%;
+    border-radius: 300px;
+}
+
+#diretorrh {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    clear: both;
+    float: left;
+    margin: 100px 3% 0 3%;
+}
+
+#diretorrh img {
+    width: 100%;
+}
+
+#financeiro {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    float: left;
+    margin: 100px 3% 0 3%;
+}
+
+#financeiro img {
+    width: 100%;
+}
+
+#compras {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    float: left;
+    margin: 100px 3% 0 3%;
+}
+
+#compras img {
+    width: 100%;
+}
+
+#marketing {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    float: left;
+    margin: 100px 3% 0 3%;
+}
+
+#marketing img {
+    width: 100%;
+}
+
+#desenvolvedorbdi {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    float: left;
+    margin: 100px 3% 0 3%;
+}
+
+#desenvolvedorbdi img {
+    width: 100%;
+}
+
+
+/* EQUIPE ------------------------------------ */
+
+
+/* REDES ------------------------------------ */
+
+#redes {
+    background-color: rgb(204, 253, 194);
+}
+
+#principalredes {
+    background-color: rgb(240, 240, 240);
+    ;
+    width: 100%;
+    height: 100%;
+}
+
+#comercial {
+    width: 50%;
+    height: 40%;
+    margin: 50px 0 0 50px;
+    float: left;
+}
+
+#comercial iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#twitter {
+    width: 200px;
+    height: 200px;
+    float: left;
+    clear: both;
+    margin: 0px 1% 0 100px;
+}
+
+#twitter img {
+    width: 100%;
+}
+
+#facebook {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 0px 1% 0 1%;
+}
+
+#facebook img {
+    width: 100%;
+}
+
+#instagram {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 0px 1% 0 1%;
+}
+
+#instagram img {
+    width: 100%;
+}
+
+#formulario {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(175, 248, 191);
+    float: left;
+    margin: 50px 0 0 50px;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
+
+#formulario input {
+    display: block;
+    float: left;
+}
+
+#formulario label {
+    display: block;
+    float: left;
+}
+
+
+/* REDES ------------------------------------ */
+
+
+/* DESLOCAMENTO------------------------------------ */
+
+#nossosservicos:checked~.sections {
+    margin-top: -100vh;
+}
+
+#quemsomos:checked~.sections {
+    margin-top: -200vh;
+}
+
+#umacoisa:checked~.sections {
+    margin-top: -300vh;
+}
+
+#outracoisa:checked~.sections {
+    margin-top: -400vh;
+}
+
+
+/* DESLOCAMENTO ------------------------------------ */
+
+.bloco img {
+    width: 40%;
+}
